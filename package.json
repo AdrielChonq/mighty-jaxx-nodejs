@@ -1,0 +1,25 @@
+{
+  "name": "mighty-jaxx-nodejs",
+  "version": "1.0.0",
+  "description": "Node.js for Mighty Jaxx interview question",
+  "main": "index.js",
+  "author": "Adriel",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "global": "^4.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.1",
+    "multer": "^1.4.5-lts.1",
+    "multer-gridfs-storage": "^5.0.2",
+    "nodemon": "^2.0.20"
+  }
+}
